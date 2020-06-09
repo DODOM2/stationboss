@@ -973,60 +973,62 @@ section.lazy-placeholder:after {
 .cid-rXztIdiDW1 .typed-text {
   color: #131313;
 }
-.cid-s1qGS8Z5cX {
-  padding-top: 45px;
-  padding-bottom: 45px;
+.cid-s1qHi1PBxr {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #ffffff;
 }
-.cid-s1qGS8Z5cX img {
-  width: 65%;
-  pointer-events: all;
+.cid-s1qHi1PBxr h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
 }
-.cid-s1qGS8Z5cX .row {
-  justify-content: center;
+.cid-s1qHi1PBxr p {
+  color: #767676;
+  text-align: left;
 }
-.cid-s1qGS8Z5cX .img1 {
-  position: absolute;
-  left: -8rem;
-  top: 5rem;
-  z-index: 4;
-  width: 100%;
-  pointer-events: none;
+.cid-s1qHi1PBxr .card-wrapper {
+  height: 100%;
 }
-.cid-s1qGS8Z5cX .img2 {
-  position: absolute;
-  top: 0rem;
-  left: 0rem;
-  width: 100%;
-  pointer-events: none;
+.cid-s1qHi1PBxr .container-fluid {
+  max-width: 1600px;
 }
-.cid-s1qGS8Z5cX .img3 {
-  position: absolute;
-  top: 12rem;
-  right: -8rem;
-  width: 100%;
-  pointer-events: none;
-}
-.cid-s1qGS8Z5cX .item {
-  height: 600px;
-  text-align: center;
+.cid-s1qHi1PBxr .card-img {
+  height: 300px;
   overflow: hidden;
+  position: relative;
+}
+.cid-s1qHi1PBxr img {
+  object-fit: cover;
+  height: 100%;
+  transition: all 0.3s;
+}
+.cid-s1qHi1PBxr .mbr-iconfont {
+  position: absolute;
+  font-size: 1.8rem;
+  color: #149dcc;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s;
+  opacity: 0;
+  z-index: 2;
+}
+.cid-s1qHi1PBxr .card:hover img {
+  filter: blur(3px);
+}
+.cid-s1qHi1PBxr .card:hover .mbr-iconfont {
+  opacity: 1;
+}
+.cid-s1qHi1PBxr .title {
+  text-align: center;
 }
 @media (max-width: 767px) {
-  .cid-s1qGS8Z5cX .img1 {
-    left: -2rem;
-    top: 5rem;
+  .cid-s1qHi1PBxr .mbr-iconfont {
+    opacity: 1;
   }
-  .cid-s1qGS8Z5cX .img2 {
-    top: 0rem;
-    left: 0rem;
-  }
-  .cid-s1qGS8Z5cX .img3 {
-    top: 8rem;
-    right: -2rem;
-  }
-  .cid-s1qGS8Z5cX .item {
-    height: 300px;
+  .cid-s1qHi1PBxr img {
+    filter: blur(3px);
   }
 }
 .cid-rWInRKgKPL .navbar {
